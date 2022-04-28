@@ -7,10 +7,10 @@ export function reportWebVitals(metric: NextWebVitalsMetric) {
       console.log(`FCP: ${Math.round(metric.value * 10) / 10}`)
       break
     case 'LCP':
-      console.log(`TTFB: ${Math.round(metric.value * 10) / 10}`)
+      console.log(`LCP: ${Math.round(metric.value * 10) / 10}`)
       break
     case 'TTFB':
-      console.log(`LCP: ${Math.round(metric.value * 10) / 10}`)
+      console.log(`TTFB: ${Math.round(metric.value * 10) / 10}`)
       break
     case 'Next.js-hydration':
       console.log(`Hydration: ${Math.round(metric.value * 10) / 10}
